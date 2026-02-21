@@ -1,0 +1,7 @@
+SheetConnection sheet("Data Set - ToyCo.xlsx");
+
+Demand from SheetRead(sheet, "DemandRange");
+Factories from SheetRead(sheet, "FactoryRange");
+FixedCost from SheetRead(sheet, "FixedCostRange");
+Capacity from SheetRead(sheet, "CapacityRange");
+InitialEmployees from SheetRead(sheet, "InitEmpRange");
